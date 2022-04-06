@@ -6,7 +6,7 @@ import Input from './Input';
 
 export const Portugues = (props) => {
   return (
-    <View style={[styles.container, {backgroundColor: 'red'}]}>
+    <View style={[styles.container, {backgroundColor: props.backColor}]}>
 
     <View>
       <Image style={{height:242}, {width:230}} source={require('../../CRF.png')} />
