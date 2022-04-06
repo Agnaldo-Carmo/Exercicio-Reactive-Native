@@ -6,7 +6,7 @@ import Input from './Input';
 
 export const Ingles = (props) => {
   return (
-    <View style={[styles.container, {backgroundColor: 'black'}]}>
+    <View style={[styles.container, {backgroundColor: props.backColor}]}>
      
     <View>
      <Image style={{height:242}, {width:230}} source={require('../../CRF.png')} />
