@@ -11,16 +11,12 @@ export default function App() {
       <View>
       <Portugues 
         backColor="red"
-        input1Placeholder="Voce e Rubro-Negro?"
-        input2Placeholder="Fale um pouco do Flamengo"
-        input3Placeholder="Qual sua idade?" />
+       />
       </View>
       <View>
       <Ingles 
         backColor="black"
-        input1Placeholder="Are You a Flamengo Fan??"
-        input2Placeholder="Talk a little about Falmengo"
-        input3Placeholder="How old are you?" /> 
+       /> 
       </View> 
     </View>
 
